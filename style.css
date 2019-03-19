@@ -1,0 +1,68 @@
+body{
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+input, button{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    text-align: center;
+}
+.main-div {
+    width: 20%;
+    margin: 0px auto;
+    padding: 20px;
+}
+.login-div {
+    width: 20%;
+    margin: 0px auto;
+    padding: 20px;
+}
+.main-div input{
+    display: block;
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 15px;
+    outline: none;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.main-div button {
+    background: darkturquoise;
+    color: black;
+    width: 110.5%;
+    height: 40px;
+    outline: none;
+    border: 1px solid darkturquoise;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+}
+.main-div input:focus{
+    border: 1px solid #777;
+}
+.login-div button {
+    background: darkturquoise;
+    color: black;
+    width: 110.5%;
+    height: 40px;
+    outline: none;
+    border: 1px solid darkturquoise;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+}
+.main-div button:hover {
+    background: #fff;
+    border: 1px solid mediumaquamarine;
+    color: black;
+    cursor: pointer;
+}
+.login-div button:hover {
+    background: #fff;
+    border: 1px solid mediumaquamarine;
+    color: black;
+    cursor: pointer;
+}
