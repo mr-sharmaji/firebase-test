@@ -1,4 +1,4 @@
-
+alert("You  are  Connected!!")
 firebase.auth().onAuthStateChanged(function(user) {
     if (user) {
         // User is signed in.
@@ -37,7 +37,7 @@ function logout() {
     firebase.auth().signOut().then(function() {
         var userEmail = document.getElementById("email").value;
         // Sign-out successful.
-        window.alert(userEmail + " Has logged out successfully");
+        window.alert(userEmail + " Has successfully logged out Of the FireBase System!!");
 
     }).catch(function(error) {
         // An error happened.
