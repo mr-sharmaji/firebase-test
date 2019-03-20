@@ -2,7 +2,7 @@ alert("You  are  Connected!!")
 firebase.auth().onAuthStateChanged(function(user) {
     if (user) {
         // User is signed in.
-        document.getElementById("user_div").style.display = "block";
+        document.getElementById("user_div").style.display = "initial";
         document.getElementById("login_div").style.display = "none";
         
         var user = firebase.auth().currentUser;
@@ -15,7 +15,7 @@ firebase.auth().onAuthStateChanged(function(user) {
     } else {
         // No user is signed in.
         document.getElementById("user_div").style.display = "none";
-        document.getElementById("login_div").style.display = "block";
+        document.getElementById("login_div").style.display = "initial";
     }
 });
 
